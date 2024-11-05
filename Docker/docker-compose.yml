@@ -1,0 +1,13 @@
+services:
+  backend:
+    container_name: "backend_t"
+    working_dir: /app/django_app/
+    build:
+      context: ..
+      dockerfile: ./Docker/Dockerfile
+    volumes:
+       - ../django_app:/app/django_app/
+    ports:
+      - "8000:8000"
+    command: >
+      sh -c "python manage.py runserver 0.0.0.0:8000"

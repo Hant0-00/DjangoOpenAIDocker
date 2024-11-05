@@ -1,0 +1,74 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+db.sqlite3
+/media
+/staticfiles
+
+# If you're using Django Debug Toolbar
+debug_toolbar/*
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+nosetests.xml
+test-*.xml
+*.db
+
+# Environments
+venv/
+env/
+ENV/
+*.env
+
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.sublime-workspace
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+
+# PostgreSQL
+*.pgdata/
+*.sql
+*.pgsql
+pg_dump.sql
+
+
+# Static files
+/static/
+build/
+dist/
+*.tar.gz
+*.egg-info/
+
+# Local .env files
+Docker/.env

@@ -1,0 +1,41 @@
+# Python files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Virtual environments
+venv/
+env/
+
+# Ignore IDEs and editor files
+*.idea
+*.vscode
+*.sublime-project
+*.sublime-workspace
+
+# Node modules and static files generated locally
+node_modules/
+npm-debug.log
+yarn-error.log
+coverage/
+dist/
+build/
+*.log
+
+# Django specific files
+media/
+static/
+*.sqlite3
+
+# Ignore sensitive information
+.env
+*.pem
+*.crt
+*.key
+
+# Docker and Git files
+.dockerignore
+Dockerfile
+../.git
+../.gitignore
